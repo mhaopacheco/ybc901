@@ -60,7 +60,7 @@ START-OF-SELECTION.
 
 *  DATA: gt_e070[] TYPE .
 
-  SELECT e~trkorr, trstatus, as4text INTO TABLE @DATA(gt_e070)
+  SELECT e~trkorr, trstatus, as4text, AS4DATE INTO TABLE @DATA(gt_e070)
     FROM e070 AS e LEFT JOIN e07t AS t
       ON e~trkorr = t~trkorr
      AND t~langu = @sy-langu
