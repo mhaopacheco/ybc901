@@ -16,7 +16,7 @@ DATA: "gt_e070 TYPE TABLE OF e070,
 " Field Symbol's ****************************************************
   FIELD-SYMBOLS: <gt_output>    TYPE ANY TABLE .
 
-
+  DATA: ld_datum      TYPE datum.
 " Definition " ******************************************************
 
 
